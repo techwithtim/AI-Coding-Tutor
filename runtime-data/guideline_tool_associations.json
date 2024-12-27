@@ -1,0 +1,38 @@
+{
+  "__schemas__": {
+    "associations": {
+      "module_path": "parlant.core.guideline_tool_associations",
+      "model_path": "_GuidelineToolAssociationDocument"
+    }
+  },
+  "associations": [
+    {
+      "id": "4rwvDo2ASa",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T11:59:44.947619+00:00",
+      "guideline_id": "6ygwwXecBe",
+      "tool_id": "database:create_roadmap"
+    },
+    {
+      "id": "oAiq6cG0y9",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T14:09:06.032768+00:00",
+      "guideline_id": "QWYTEXsK9s",
+      "tool_id": "database:create_resource"
+    },
+    {
+      "id": "69Fcquy8RV",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T14:50:03.860652+00:00",
+      "guideline_id": "JQcRQG6X2q",
+      "tool_id": "database:search_resources"
+    },
+    {
+      "id": "23o2OoRJGd",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T16:04:49.016682+00:00",
+      "guideline_id": "jPzd114-LF",
+      "tool_id": "database:create_quiz"
+    }
+  ]
+}

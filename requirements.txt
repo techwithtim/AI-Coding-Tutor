@@ -1,0 +1,8 @@
+pymongo[srv]
+python-dotenv
+pydantic
+pydantic-core
+streamlit
+parlant-client
+sentence_transformers
+einops

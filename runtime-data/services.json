@@ -1,0 +1,9 @@
+{
+  "__schemas__": {
+    "tool_services": {
+      "module_path": "parlant.core.services.tools.service_registry",
+      "model_path": "_ToolServiceDocument"
+    }
+  },
+  "tool_services": []
+}

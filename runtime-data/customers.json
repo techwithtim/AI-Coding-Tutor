@@ -1,0 +1,14 @@
+{
+  "__schemas__": {
+    "customers": {
+      "module_path": "parlant.core.customers",
+      "model_path": "_CustomerDocument"
+    },
+    "customer_tag_associations": {
+      "module_path": "parlant.core.customers",
+      "model_path": "_CustomerTagAssociationDocument"
+    }
+  },
+  "customers": [],
+  "customer_tag_associations": []
+}

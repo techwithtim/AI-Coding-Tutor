@@ -1,0 +1,14 @@
+{
+  "__schemas__": {
+    "variables": {
+      "module_path": "parlant.core.context_variables",
+      "model_path": "_ContextVariableDocument"
+    },
+    "values": {
+      "module_path": "parlant.core.context_variables",
+      "model_path": "_ContextVariableValueDocument"
+    }
+  },
+  "variables": [],
+  "values": []
+}

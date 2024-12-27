@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "topics": [
+    {
+      "id": 2,
+      "name": "Topic 1",
+      "subtopics": [
+        { "id": 3, "name": "Topic 3", "notes": "", "completed": false },
+        { "id": 4, "name": "Topic 4", "notes": "", "completed": false }
+      ],
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "name": "Topic 2",
+      "topics": [
+        { "id": 6, "name": "Topic 6", "notes": "", "completed": true },
+        { "id": 7, "name": "Topic 7", "notes": "", "completed": false }
+      ],
+      "notes": ""
+    }
+  ],
+  "updatedAt": "2020-01-01T00:00:00+00:00"
+}

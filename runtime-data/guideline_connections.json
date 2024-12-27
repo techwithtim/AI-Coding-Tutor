@@ -1,0 +1,9 @@
+{
+  "__schemas__": {
+    "guideline_connections": {
+      "module_path": "parlant.core.guideline_connections",
+      "model_path": "_GuidelineConnectionDocument"
+    }
+  },
+  "guideline_connections": []
+}

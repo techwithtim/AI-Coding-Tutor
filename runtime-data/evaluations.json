@@ -1,0 +1,376 @@
+{
+  "__schemas__": {
+    "evaluations": {
+      "module_path": "parlant.core.evaluations",
+      "model_path": "_EvaluationDocument"
+    }
+  },
+  "evaluations": [
+    {
+      "id": "KcOmE7EmYs",
+      "version": "0.1.0",
+      "agent_id": "pWoazDUUzH",
+      "creation_utc": "2024-12-27T09:25:59.833265+00:00",
+      "status": "COMPLETED",
+      "error": null,
+      "invoices": [
+        {
+          "kind": "GUIDELINE",
+          "payload": {
+            "content": {
+              "condition": "the user greets you",
+              "action": "encourage the user to use this tool for learning, be positive"
+            },
+            "action": "add",
+            "updated_id": null,
+            "coherence_check": true,
+            "connection_proposition": true
+          },
+          "checksum": "79b2f07c8b7ab1cd9093b9544aa8c9e4",
+          "state_version": "-2310704348297148185",
+          "approved": true,
+          "data": {
+            "coherence_checks": [],
+            "connection_propositions": null
+          },
+          "error": null
+        }
+      ],
+      "progress": 0.0
+    },
+    {
+      "id": "nc96OnYWeD",
+      "version": "0.1.0",
+      "agent_id": "yCkrWvHkgm",
+      "creation_utc": "2024-12-27T09:45:45.119448+00:00",
+      "status": "COMPLETED",
+      "error": null,
+      "invoices": [
+        {
+          "kind": "GUIDELINE",
+          "payload": {
+            "content": {
+              "condition": "the user pastes some kind of code",
+              "action": "analayze the code and ask the user what they want help with. Is there a bug, do they want it to be explained, or do thet want other assistance."
+            },
+            "action": "add",
+            "updated_id": null,
+            "coherence_check": true,
+            "connection_proposition": true
+          },
+          "checksum": "24095b0a1f3f1c6add8881c9bb9400b9",
+          "state_version": "-2310704348297148185",
+          "approved": true,
+          "data": {
+            "coherence_checks": [],
+            "connection_propositions": null
+          },
+          "error": null
+        }
+      ],
+      "progress": 0.0
+    },
+    {
+      "id": "qJKO0YTG0U",
+      "version": "0.1.0",
+      "agent_id": "yCkrWvHkgm",
+      "creation_utc": "2024-12-27T09:46:30.950274+00:00",
+      "status": "COMPLETED",
+      "error": null,
+      "invoices": [
+        {
+          "kind": "GUIDELINE",
+          "payload": {
+            "content": {
+              "condition": "the user asks you for help with their code",
+              "action": "first ask the user what they have tried to solve the problem"
+            },
+            "action": "add",
+            "updated_id": null,
+            "coherence_check": true,
+            "connection_proposition": true
+          },
+          "checksum": "b5dbc525b1bc81aef99c6fb457d98929",
+          "state_version": "-2310704348297148185",
+          "approved": true,
+          "data": {
+            "coherence_checks": [],
+            "connection_propositions": null
+          },
+          "error": null
+        }
+      ],
+      "progress": 100.0
+    },
+    {
+      "id": "DT8KpeN8RX",
+      "version": "0.1.0",
+      "agent_id": "yCkrWvHkgm",
+      "creation_utc": "2024-12-27T10:11:08.472408+00:00",
+      "status": "COMPLETED",
+      "error": null,
+      "invoices": [
+        {
+          "kind": "GUIDELINE",
+          "payload": {
+            "content": {
+              "condition": "the user wants to generate a random number",
+              "action": "generate a random number for the user"
+            },
+            "action": "add",
+            "updated_id": null,
+            "coherence_check": true,
+            "connection_proposition": true
+          },
+          "checksum": "e822782f82c9694a312ad7b7cdd1501d",
+          "state_version": "-2310704348297148185",
+          "approved": true,
+          "data": {
+            "coherence_checks": [],
+            "connection_propositions": null
+          },
+          "error": null
+        }
+      ],
+      "progress": 100.0
+    },
+    {
+      "id": "GDEToAl7yk",
+      "version": "0.1.0",
+      "agent_id": "w5HbpNTL14",
+      "creation_utc": "2024-12-27T11:35:28.207198+00:00",
+      "status": "COMPLETED",
+      "error": null,
+      "invoices": [
+        {
+          "kind": "GUIDELINE",
+          "payload": {
+            "content": {
+              "condition": "user asks for a roadmap to be generated",
+              "action": "generate a new roadmap for the user"
+            },
+            "action": "add",
+            "updated_id": null,
+            "coherence_check": true,
+            "connection_proposition": true
+          },
+          "checksum": "3d4c6b35b365924d53d77cec50350347",
+          "state_version": "-1193875770569460417",
+          "approved": true,
+          "data": {
+            "coherence_checks": [],
+            "connection_propositions": null
+          },
+          "error": null
+        }
+      ],
+      "progress": 0.0
+    },
+    {
+      "id": "NMGapFTHvH",
+      "version": "0.1.0",
+      "agent_id": "QWODNTNOhX",
+      "creation_utc": "2024-12-27T14:07:01.646239+00:00",
+      "status": "COMPLETED",
+      "error": null,
+      "invoices": [
+        {
+          "kind": "GUIDELINE",
+          "payload": {
+            "content": {
+              "condition": "user wants to create a new resource",
+              "action": "ensure the user provides all of the approriate details like a name, some kind of asset like a link or book title, and the type of resource like Book, Tutorial etc"
+            },
+            "action": "add",
+            "updated_id": null,
+            "coherence_check": true,
+            "connection_proposition": true
+          },
+          "checksum": "c924b557f0e0b5ce6f8f8fb3edfd2781",
+          "state_version": "-7183025815427809231",
+          "approved": true,
+          "data": {
+            "coherence_checks": [],
+            "connection_propositions": null
+          },
+          "error": null
+        }
+      ],
+      "progress": 0.0
+    },
+    {
+      "id": "GrEdn9jy7j",
+      "version": "0.1.0",
+      "agent_id": "QWODNTNOhX",
+      "creation_utc": "2024-12-27T14:07:33.722526+00:00",
+      "status": "COMPLETED",
+      "error": null,
+      "invoices": [
+        {
+          "kind": "GUIDELINE",
+          "payload": {
+            "content": {
+              "condition": "user provides all of the needed details to create a resource",
+              "action": "create a new resource"
+            },
+            "action": "add",
+            "updated_id": null,
+            "coherence_check": true,
+            "connection_proposition": true
+          },
+          "checksum": "f858bc3bc898b325030966c583cf08d8",
+          "state_version": "-7183025815427809231",
+          "approved": true,
+          "data": {
+            "coherence_checks": [],
+            "connection_propositions": null
+          },
+          "error": null
+        }
+      ],
+      "progress": 100.0
+    },
+    {
+      "id": "6KYY4MqBl1",
+      "version": "0.1.0",
+      "agent_id": "QWODNTNOhX",
+      "creation_utc": "2024-12-27T14:49:27.177414+00:00",
+      "status": "COMPLETED",
+      "error": null,
+      "invoices": [
+        {
+          "kind": "GUIDELINE",
+          "payload": {
+            "content": {
+              "condition": "user asks question about a resource",
+              "action": "search for a resource and provide information about it"
+            },
+            "action": "add",
+            "updated_id": null,
+            "coherence_check": true,
+            "connection_proposition": true
+          },
+          "checksum": "c1cb9d3761514afe7588cafe4c113866",
+          "state_version": "2230514295236794539",
+          "approved": true,
+          "data": {
+            "coherence_checks": [],
+            "connection_propositions": null
+          },
+          "error": null
+        }
+      ],
+      "progress": 100.0
+    },
+    {
+      "id": "r-8YNClfIZ",
+      "version": "0.1.0",
+      "agent_id": "dkJPs3GbXG",
+      "creation_utc": "2024-12-27T16:02:47.071309+00:00",
+      "status": "COMPLETED",
+      "error": null,
+      "invoices": [
+        {
+          "kind": "GUIDELINE",
+          "payload": {
+            "content": {
+              "condition": "a user asks to generate a quiz but doesn't specify details",
+              "action": "ask the user to be specific in what they want the quiz to be about, the difficulty level etc"
+            },
+            "action": "add",
+            "updated_id": null,
+            "coherence_check": true,
+            "connection_proposition": true
+          },
+          "checksum": "b8224f25d46a928d4db110728c5fcaff",
+          "state_version": "-2830481925790778641",
+          "approved": true,
+          "data": {
+            "coherence_checks": [],
+            "connection_propositions": null
+          },
+          "error": null
+        }
+      ],
+      "progress": 0.0
+    },
+    {
+      "id": "OgD38n8DxF",
+      "version": "0.1.0",
+      "agent_id": "dkJPs3GbXG",
+      "creation_utc": "2024-12-27T16:03:34.244951+00:00",
+      "status": "COMPLETED",
+      "error": null,
+      "invoices": [
+        {
+          "kind": "GUIDELINE",
+          "payload": {
+            "content": {
+              "condition": "a user asks to generate a quiz and provides enough details",
+              "action": "generate a creative quiz for the user based on their completed items in their roadmap and the prefences they provided"
+            },
+            "action": "add",
+            "updated_id": null,
+            "coherence_check": true,
+            "connection_proposition": true
+          },
+          "checksum": "09802b73f37a659b92749caa3658d458",
+          "state_version": "-2830481925790778641",
+          "approved": true,
+          "data": {
+            "coherence_checks": [],
+            "connection_propositions": null
+          },
+          "error": null
+        }
+      ],
+      "progress": 100.0
+    },
+    {
+      "id": "qkzjV7BfvU",
+      "version": "0.1.0",
+      "agent_id": "QWODNTNOhX",
+      "creation_utc": "2024-12-27T16:52:01.417501+00:00",
+      "status": "COMPLETED",
+      "error": null,
+      "invoices": [
+        {
+          "kind": "GUIDELINE",
+          "payload": {
+            "content": {
+              "condition": "user provides all of the needed details to create a resource",
+              "action": "dont create a new resource"
+            },
+            "action": "add",
+            "updated_id": null,
+            "coherence_check": true,
+            "connection_proposition": true
+          },
+          "checksum": "16fb8513fdce8f07dc10bae20fe57284",
+          "state_version": "-7744840516425832903",
+          "approved": false,
+          "data": {
+            "coherence_checks": [
+              {
+                "kind": "contradiction_with_existing_guideline",
+                "first": {
+                  "condition": "user provides all of the needed details to create a resource",
+                  "action": "dont create a new resource"
+                },
+                "second": {
+                  "condition": "user provides all of the needed details to create a resource",
+                  "action": "create a new resource"
+                },
+                "issue": "The origin guideline explicitly states not to create a new resource when all details are provided, while the compared guideline explicitly instructs the agent to create a new resource in the same condition. These actions are directly contradictory.",
+                "severity": 10
+              }
+            ],
+            "connection_propositions": null
+          },
+          "error": null
+        }
+      ],
+      "progress": 100.0
+    }
+  ]
+}

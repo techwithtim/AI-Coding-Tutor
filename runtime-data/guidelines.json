@@ -1,0 +1,82 @@
+{
+  "__schemas__": {
+    "guidelines": {
+      "module_path": "parlant.core.guidelines",
+      "model_path": "_GuidelineDocument"
+    }
+  },
+  "guidelines": [
+    {
+      "id": "8yLc1Yhydh",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T09:26:00.344001+00:00",
+      "guideline_set": "pWoazDUUzH",
+      "condition": "the user greets you",
+      "action": "encourage the user to use this tool for learning, be positive"
+    },
+    {
+      "id": "NrndozOFW0",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T09:45:45.631021+00:00",
+      "guideline_set": "yCkrWvHkgm",
+      "condition": "the user pastes some kind of code",
+      "action": "analayze the code and ask the user what they want help with. Is there a bug, do they want it to be explained, or do thet want other assistance."
+    },
+    {
+      "id": "ocekNdf3ol",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T09:46:35.988820+00:00",
+      "guideline_set": "yCkrWvHkgm",
+      "condition": "the user asks you for help with their code",
+      "action": "first ask the user what they have tried to solve the problem"
+    },
+    {
+      "id": "6ygwwXecBe",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T11:35:28.719446+00:00",
+      "guideline_set": "w5HbpNTL14",
+      "condition": "user asks for a roadmap to be generated",
+      "action": "generate a new roadmap for the user"
+    },
+    {
+      "id": "yrEdC3OwaB",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T14:07:02.160628+00:00",
+      "guideline_set": "QWODNTNOhX",
+      "condition": "user wants to create a new resource",
+      "action": "ensure the user provides all of the approriate details like a name, some kind of asset like a link or book title, and the type of resource like Book, Tutorial etc"
+    },
+    {
+      "id": "QWYTEXsK9s",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T14:07:42.288330+00:00",
+      "guideline_set": "QWODNTNOhX",
+      "condition": "user provides all of the needed details to create a resource",
+      "action": "create a new resource"
+    },
+    {
+      "id": "JQcRQG6X2q",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T14:49:37.745801+00:00",
+      "guideline_set": "QWODNTNOhX",
+      "condition": "user asks question about a resource",
+      "action": "search for a resource and provide information about it"
+    },
+    {
+      "id": "kVgBxtzJdj",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T16:02:47.582758+00:00",
+      "guideline_set": "dkJPs3GbXG",
+      "condition": "a user asks to generate a quiz but doesn't specify details",
+      "action": "ask the user to be specific in what they want the quiz to be about, the difficulty level etc"
+    },
+    {
+      "id": "jPzd114-LF",
+      "version": "0.1.0",
+      "creation_utc": "2024-12-27T16:03:41.289468+00:00",
+      "guideline_set": "dkJPs3GbXG",
+      "condition": "a user asks to generate a quiz and provides enough details",
+      "action": "generate a creative quiz for the user based on their completed items in their roadmap and the prefences they provided"
+    }
+  ]
+}

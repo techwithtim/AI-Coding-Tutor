@@ -1,0 +1,18 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Question 1",
+      "answer": "Choice 1",
+      "choices": ["Choice 1", "Choice 2", "Choice 3"]
+    },
+    {
+      "id": 2,
+      "question": "Question 2",
+      "answer": "Choice 2",
+      "choices": ["Choice 1", "Choice 2", "Choice 3"]
+    }
+  ],
+  "createdAt": "2020-01-01T00:00:00+00:00",
+  "id": 2
+}
